@@ -1,0 +1,43 @@
+*********************
+**** Session 001 ****
+*********************
+
+JavaScript
+==========
+
+1. This language was created to do small data validations and DOM manupulation at the client side.
+
+2. How many datatypes is supported in javascript (you can get it using typeof <your object>).
+
+There are onyl 6 types of datatypes that JS supports, those are:
+    - typeof 123            = number    => Holds data
+    - typeof "A"            = string    => Holds data
+    - typeof true           = boolean   => Holds data
+    - typeof {}             = object    => Collection of data
+    - typeof undefined      = undefined => No data
+    - typeof function(){}   = function  => function
+
+* The number type supported by default in JS is floting type.
+    e.g
+        var x = 1;
+        x -= 0.05; => 0.95
+        x -= 0.05; => 0.8999999999999999
+        x -= 0.05; => 0.8499999999999999
+        x -= 0.05; => 0.7999999999999998
+
+Other than these, everything else comes under any one of the above types:
+
+e.g:
+    - typeof Date()     = string
+    - typeof new Date() = object
+    - typeof null       = object
+    - typeof NaN        = number
+
+3. Category of languages
+
+Category 1:
+     - Procedural
+     - Object Oriented
+     - Functional
+            - Functions are first class citizens (functions are data).
+
