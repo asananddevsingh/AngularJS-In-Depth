@@ -5,9 +5,9 @@
 JavaScript
 ==========
 
-1. This language was created to do small data validations and DOM manupulation at the client side.
+1. This language was created to do small data validations and DOM manipulation at the client side.
 
-2. How many datatypes is supported in javascript (you can get it using typeof <your object>).
+2. How many datatypes is supported in javascript (you can get it using typeof API).
 
 There are onyl 6 types of datatypes that JS supports, those are:
     - typeof 123            = number    => Holds data
@@ -17,7 +17,7 @@ There are onyl 6 types of datatypes that JS supports, those are:
     - typeof undefined      = undefined => No data
     - typeof function(){}   = function  => function
 
-* The number type supported by default in JS is floting type.
+* The underlying type of number type in JS is floating type.
     e.g
         var x = 1;
         x -= 0.05; => 0.95
