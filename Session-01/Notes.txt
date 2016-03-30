@@ -39,5 +39,6 @@ Category 1:
      - Procedural
      - Object Oriented
      - Functional
-            - Functions are first class citizens (functions are data).
+            - Functions are first class citizens (Also known as functions are data).
+
 
